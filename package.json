@@ -1,0 +1,20 @@
+{
+  "name": "3d-toon-physics-playground",
+  "private": true,
+  "version": "1.0.0",
+  "description": "3D Toon Physics Playground — Three.js + custom GLSL toon shaders + cannon-es physics, mobile first.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  },
+  "license": "MIT"
+}
