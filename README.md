@@ -12,7 +12,7 @@ collision. The slimes leave glossy goo trails and splash slime everywhere.
 ```bash
 npm install
 npm run dev      # dev server (also on your LAN: open the printed URL on a phone)
-npm run build    # production build -> dist/
+npm run build    # production build -> docs/ (served by GitHub Pages)
 npm run preview  # serve the production build
 ```
 
