@@ -644,9 +644,16 @@ body.is-touch .kbd-hint { display: none; }
    Responsive
    ========================================================================== */
 
+/* narrow phones: keep all 7 toolbar buttons on one row */
+@media (max-width: 419px) {
+  :root { --btn: 36px; --gap: 5px; }
+  .icon-btn { border-radius: 12px; }
+  .icon-btn svg { width: 20px; height: 20px; }
+}
+
 /* very small phones */
 @media (max-width: 359px) {
-  :root { --btn: 34px; --gap: 4px; --joy-size: 100px; --knob-size: 44px; --jump-size: 58px; }
+  :root { --btn: 32px; --gap: 4px; --joy-size: 100px; --knob-size: 44px; --jump-size: 58px; }
   .icon-btn svg { width: 19px; height: 19px; }
   .brand small { display: none; }
 }
